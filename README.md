@@ -46,3 +46,16 @@ Following arguments mandatory or optional for predict.py
 3.	'--top_k'. 'Top K most likely classes. Optional', type = int
 4.	'--category_names'. 'Mapping of categories to real names. JSON file name to be provided. Optional', type = str
 5.	'--cpu'. "Option to use GPU. Optional", action = store_true
+
+## Run on windows - 
+Make sure you have installed Python , Pytorch and Jupyter Notebook.
+
+* _Download all the folders and files_     
+`git clone https://github.com/GauravG-20/Flower-Image-Classifier.git`              
+* _Then open Visual Studio Code (or powershell) and change the directory to the path where all the files are located._       
+`cd Flower-Image-Classifier`      
+* _Now run the following commands_ -        
+`python train.py [Dir of Flower dataset]`
+This will firstly download the models and then will train the model with default parameters.       
+`python predict.py [Dir of Image for prediction] [directory of the saved checkpoint]`
+

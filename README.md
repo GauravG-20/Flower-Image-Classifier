@@ -20,6 +20,10 @@ You can dowload Densenet121 [here](https://www.kaggle.com/code/leighplt/densenet
 
 You can dowload VGG19 [here](https://www.kaggle.com/code/madz2000/flowers-classification-using-vgg19-88-accuracy)
 
+## Refresher on Neural Network :
+[Gradient Descent](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-gradient-descent-intuition-e5bde385078)   
+[Backpropogation](https://medium.com/secure-and-private-ai-writing-challenge/playing-with-backpropagation-algorithm-intuition-10c42578a8e8)        
+
 
 ## Command line applications train.py and predict.py:
 

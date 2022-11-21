@@ -6,7 +6,22 @@ The image classifier to recognize different species of flowers. Dataset contains
 
 In Image Classifier Project.ipynb Densenet121 from torchvision.models pretrained models was used. It was loaded as a pre-trained network, based on which defined a new, untrained feed-forward network as a classifier, using ReLU activations and dropout. Trained the classifier layers using backpropagation using the pre-trained network to get the features. The loss and accuracy on the validation set were tracked to determine the best hyperparameters. 
 
-### Command line applications train.py and predict.py
+## Dataset used :     
+102 Category Flower Dataset     
+
+http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html     
+[Maria-Elena Nilsback](http://www.robots.ox.ac.uk/~men/) and [Andrew Zisserman](http://www.robots.ox.ac.uk/~az/)
+
+## Neural Network used : 
+* [Densenet121](https://resources.wolframcloud.com/NeuralNetRepository/resources/DenseNet-121-Trained-on-ImageNet-Competition-Data/)
+* [VGG19](https://resources.wolframcloud.com/NeuralNetRepository/resources/VGG-19-Trained-on-ImageNet-Competition-Data/)
+       
+You can dowload Densenet121 [here](https://www.kaggle.com/code/leighplt/densenet121-pytorch)
+
+You can dowload VGG19 [here](https://www.kaggle.com/code/madz2000/flowers-classification-using-vgg19-88-accuracy)
+
+
+## Command line applications train.py and predict.py:
 
 For command line applications there is an option to select either Alexnet or VGG13 models. 
 
